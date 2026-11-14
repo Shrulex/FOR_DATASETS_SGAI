@@ -1,0 +1,14 @@
+model-d-deeplabv3plus-resnet50 | epoch 1/12 | train_loss 0.84273 | val_weighted_score 0.26059
+model-d-deeplabv3plus-resnet50 | epoch 2/12 | train_loss 0.71744 | val_weighted_score 0.34950
+model-d-deeplabv3plus-resnet50 | epoch 3/12 | train_loss 0.66405 | val_weighted_score 0.36030
+model-d-deeplabv3plus-resnet50 | epoch 4/12 | train_loss 0.62368 | val_weighted_score 0.38370
+WARNING: defect_a threshold saturated at grid edge (0.9900000095367432) — widen THRESHOLD_GRID
+model-d-deeplabv3plus-resnet50 | epoch 5/12 | train_loss 0.59128 | val_weighted_score 0.38825
+model-d-deeplabv3plus-resnet50 | epoch 6/12 | train_loss 0.56738 | val_weighted_score 0.40306
+model-d-deeplabv3plus-resnet50 | epoch 7/12 | train_loss 0.53866 | val_weighted_score 0.40865
+model-d-deeplabv3plus-resnet50 | epoch 8/12 | train_loss 0.51825 | val_weighted_score 0.40898
+model-d-deeplabv3plus-resnet50 | epoch 9/12 | train_loss 0.49647 | val_weighted_score 0.41593
+model-d-deeplabv3plus-resnet50 | epoch 10/12 | train_loss 0.47733 | val_weighted_score 0.41885
+model-d-deeplabv3plus-resnet50 | epoch 11/12 | train_loss 0.47211 | val_weighted_score 0.42333
+model-d-deeplabv3plus-resnet50 | epoch 12/12 | train_loss 0.46523 | val_weighted_score 0.42389
+model-d-deeplabv3plus-resnet50 | best raw score 0.42389 | EMA score 0.42435
