@@ -1,0 +1,32 @@
+model-c-segformer-b0 | epoch 1/15 | train_loss 0.98744 | val_weighted_score 0.23481
+WARNING: defect_a threshold saturated at grid edge (0.9900000095367432) — widen THRESHOLD_GRID
+WARNING: defect_b threshold saturated at grid edge (0.9900000095367432) — widen THRESHOLD_GRID
+model-c-segformer-b0 | epoch 2/15 | train_loss 0.70881 | val_weighted_score 0.25837
+WARNING: defect_b threshold saturated at grid edge (0.9900000095367432) — widen THRESHOLD_GRID
+model-c-segformer-b0 | epoch 3/15 | train_loss 0.63860 | val_weighted_score 0.27252
+WARNING: defect_b threshold saturated at grid edge (0.9900000095367432) — widen THRESHOLD_GRID
+model-c-segformer-b0 | epoch 4/15 | train_loss 0.61248 | val_weighted_score 0.28372
+WARNING: defect_b threshold saturated at grid edge (0.9900000095367432) — widen THRESHOLD_GRID
+model-c-segformer-b0 | epoch 5/15 | train_loss 0.59225 | val_weighted_score 0.28765
+WARNING: defect_b threshold saturated at grid edge (0.9900000095367432) — widen THRESHOLD_GRID
+model-c-segformer-b0 | epoch 6/15 | train_loss 0.57371 | val_weighted_score 0.29038
+WARNING: defect_b threshold saturated at grid edge (0.9900000095367432) — widen THRESHOLD_GRID
+model-c-segformer-b0 | epoch 7/15 | train_loss 0.56269 | val_weighted_score 0.29532
+WARNING: defect_b threshold saturated at grid edge (0.9900000095367432) — widen THRESHOLD_GRID
+model-c-segformer-b0 | epoch 8/15 | train_loss 0.55206 | val_weighted_score 0.29783
+WARNING: defect_b threshold saturated at grid edge (0.9900000095367432) — widen THRESHOLD_GRID
+model-c-segformer-b0 | epoch 9/15 | train_loss 0.54004 | val_weighted_score 0.29801
+WARNING: defect_b threshold saturated at grid edge (0.9900000095367432) — widen THRESHOLD_GRID
+model-c-segformer-b0 | epoch 10/15 | train_loss 0.53114 | val_weighted_score 0.29999
+WARNING: defect_b threshold saturated at grid edge (0.9900000095367432) — widen THRESHOLD_GRID
+model-c-segformer-b0 | epoch 11/15 | train_loss 0.53095 | val_weighted_score 0.30409
+WARNING: defect_b threshold saturated at grid edge (0.9900000095367432) — widen THRESHOLD_GRID
+model-c-segformer-b0 | epoch 12/15 | train_loss 0.51848 | val_weighted_score 0.30260
+WARNING: defect_b threshold saturated at grid edge (0.9900000095367432) — widen THRESHOLD_GRID
+model-c-segformer-b0 | epoch 13/15 | train_loss 0.51413 | val_weighted_score 0.30353
+WARNING: defect_b threshold saturated at grid edge (0.9900000095367432) — widen THRESHOLD_GRID
+model-c-segformer-b0 | epoch 14/15 | train_loss 0.51376 | val_weighted_score 0.30185
+WARNING: defect_b threshold saturated at grid edge (0.9900000095367432) — widen THRESHOLD_GRID
+model-c-segformer-b0 | epoch 15/15 | train_loss 0.51190 | val_weighted_score 0.30258
+WARNING: defect_b threshold saturated at grid edge (0.9900000095367432) — widen THRESHOLD_GRID
+model-c-segformer-b0 | best raw score 0.30409 | EMA score 0.30323
