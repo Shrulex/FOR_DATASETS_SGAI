@@ -1,0 +1,84 @@
+_wandb:
+    value:
+        cli_version: 0.28.1
+        e:
+            0t84jwka6n7mbq77gv8phc5h1dp8k0ia:
+                args:
+                    - -f
+                    - /tmp/tmpb69lsk93.json
+                    - '--HistoryManager.hist_file=:memory:'
+                cpu_count: 2
+                cpu_count_logical: 4
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "8758385086464"
+                        used: "7720305819648"
+                executable: /usr/bin/python3
+                gpu: Tesla T4
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-c2a5db68-6eac-4fb2-2da6-bd41cc91b8cc
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-0b0a82ca-96d7-6ccb-8ba6-7f1a3d3778be
+                host: d978af8079c4
+                memory:
+                    total: "33658159104"
+                os: Linux-6.18.55+-x86_64-with-glibc2.39
+                program: <python with no main file>
+                python: CPython 3.13.16
+                root: /kaggle/working
+                startedAt: "2026-11-11T19:15:55.389204Z"
+                writerId: 0t84jwka6n7mbq77gv8phc5h1dp8k0ia
+        m: []
+        python_version: 3.13.16
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 63
+                - 71
+                - 74
+            "2":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 63
+                - 71
+                - 74
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.13.16
+            "5": 0.28.1
+            "6": 5.20.2
+            "8":
+                - 2
+                - 13
+            "10":
+                - 20
+            "12": 0.28.1
+            "13": linux-x86_64
+encoder:
+    value: resnet34
+epochs:
+    value: 15
+pretrained:
+    value: true
+role:
+    value: pretrained

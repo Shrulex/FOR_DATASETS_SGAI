@@ -1,0 +1,18 @@
+model-b-resnet34-imagenet | epoch 1/15 | train_loss 0.92083 | val_weighted_score 0.22772
+model-b-resnet34-imagenet | epoch 2/15 | train_loss 0.74362 | val_weighted_score 0.31612
+model-b-resnet34-imagenet | epoch 3/15 | train_loss 0.68215 | val_weighted_score 0.34481
+model-b-resnet34-imagenet | epoch 4/15 | train_loss 0.63934 | val_weighted_score 0.35266
+model-b-resnet34-imagenet | epoch 5/15 | train_loss 0.62087 | val_weighted_score 0.36180
+model-b-resnet34-imagenet | epoch 6/15 | train_loss 0.59792 | val_weighted_score 0.39419
+WARNING: defect_a threshold saturated at grid edge (0.9900000095367432) — widen THRESHOLD_GRID
+model-b-resnet34-imagenet | epoch 7/15 | train_loss 0.57068 | val_weighted_score 0.38583
+model-b-resnet34-imagenet | epoch 8/15 | train_loss 0.54341 | val_weighted_score 0.40172
+model-b-resnet34-imagenet | epoch 9/15 | train_loss 0.51834 | val_weighted_score 0.40763
+model-b-resnet34-imagenet | epoch 10/15 | train_loss 0.49787 | val_weighted_score 0.41633
+model-b-resnet34-imagenet | epoch 11/15 | train_loss 0.47763 | val_weighted_score 0.42365
+model-b-resnet34-imagenet | epoch 12/15 | train_loss 0.46460 | val_weighted_score 0.42446
+WARNING: defect_b threshold saturated at grid edge (0.9900000095367432) — widen THRESHOLD_GRID
+model-b-resnet34-imagenet | epoch 13/15 | train_loss 0.45456 | val_weighted_score 0.42394
+model-b-resnet34-imagenet | epoch 14/15 | train_loss 0.44341 | val_weighted_score 0.42968
+model-b-resnet34-imagenet | epoch 15/15 | train_loss 0.43986 | val_weighted_score 0.43049
+model-b-resnet34-imagenet | best raw score 0.43049 | EMA score 0.42841
