@@ -1,0 +1,189 @@
+_wandb:
+    value:
+        cli_version: 0.28.1
+        e:
+            j58on5c44dhaefht9s98kod53yrweory:
+                args:
+                    - -f
+                    - /tmp/tmpwy_aecem.json
+                    - '--HistoryManager.hist_file=:memory:'
+                cpu_count: 2
+                cpu_count_logical: 4
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "8758385086464"
+                        used: "7730485633024"
+                executable: /usr/bin/python3
+                gpu: Tesla T4
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-18990b1e-8d7e-21a3-8a8a-d7b45a59c4b3
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-9a8c77e9-5a2a-1e00-a522-3bb7bbcb6c38
+                host: 42807b95f4c6
+                memory:
+                    total: "33658159104"
+                os: Linux-6.18.55+-x86_64-with-glibc2.39
+                program: <python with no main file>
+                python: CPython 3.13.15
+                root: /kaggle/working
+                startedAt: "2026-11-14T23:08:19.047862Z"
+                writerId: j58on5c44dhaefht9s98kod53yrweory
+        m: []
+        python_version: 3.13.15
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 63
+                - 71
+                - 74
+            "2":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 63
+                - 71
+                - 74
+            "3":
+                - 2
+                - 13
+                - 15
+                - 16
+                - 62
+            "4": 3.13.15
+            "5": 0.28.1
+            "6": 5.16.1
+            "8":
+                - 2
+                - 13
+            "12": 0.28.1
+            "13": linux-x86_64
+academic_model_comparison_csv:
+    value: /kaggle/working/surfaceguard_version19_audit_gated_hybrid/academic_eight_model_common_validation_comparison.csv
+academic_model_comparison_group:
+    value: surfaceguard-final-models-and-ensemble
+academic_model_comparison_runs:
+    value: 8
+class_aware_weights:
+    value:
+        defect_a:
+            mit_b4: 0.5
+            v4: 0.125
+            v5: 0.25
+            v6: 0.125
+        defect_b:
+            mit_b4: 0.5
+            v4: 0.25
+            v5: 0.125
+            v6: 0.125
+        defect_c:
+            mit_b4: 0.675000011920929
+            v4: 0
+            v5: 0.07500000298023224
+            v6: 0.25
+        defect_d:
+            mit_b4: 0.625
+            v4: 0
+            v5: 0.17499999701976776
+            v6: 0.20000000298023224
+colab_v7_available:
+    value: true
+colab_v7_beta_by_class:
+    value:
+        defect_a: 0.10000000149011612
+        defect_b: 0.800000011920929
+        defect_c: 0
+        defect_d: 0.10000000149011612
+colab_v7_fusion_mode_by_class:
+    value:
+        defect_a: probability
+        defect_b: probability
+        defect_c: probability
+        defect_d: logit
+colab_v7_gate_thresholds:
+    value:
+        defect_a: 0.7
+        defect_b: 0.8
+        defect_c: 0.2
+        defect_d: 0.35
+component_min_area_by_class:
+    value:
+        defect_a: 0
+        defect_b: 0
+        defect_c: 0
+        defect_d: 0
+component_min_area_candidate_by_class:
+    value:
+        defect_a: 48
+        defect_b: 128
+        defect_c: 64
+        defect_d: 128
+execution_device:
+    value: cuda:0
+gpu_name:
+    value: Tesla T4
+main_inference_mode:
+    value: four_way_flip_tta
+main_resampling:
+    value: bilinear
+main_tta_passes:
+    value: 4
+mit_b4_inference_mode:
+    value: four_way_flip_tta
+mit_resampling:
+    value: bilinear
+models:
+    value:
+        - V4 U-Net/ResNet34
+        - V5 SegFormer-B0
+        - V6 DeepLabV3+/ResNet50
+        - MiT-B4 SegFormer
+        - ColabV7 A/B/C/D
+previous_public_baseline:
+    value: 0.65832
+public_leaderboard_goal:
+    value: 0.68
+target_local_validation_score:
+    value: 0.675
+thresholds:
+    value:
+        defect_a: 0.23499999940395355
+        defect_b: 0.38499999046325684
+        defect_c: 0.12999999523162842
+        defect_d: 0.23000000417232513
+v19_classifier_policy:
+    value:
+        defect_a:
+            gate: 0.7
+            mode: hard
+        defect_b:
+            gate: 0.8
+            mode: hard
+        defect_c:
+            gate: 0.2
+            mode: hard
+        defect_d:
+            gate: 0.35
+            mode: hard
+v19_pixel_conflict_resolution:
+    value: false
+version:
+    value: v19_adaptive_soft_gate_conflict_aware_hybrid
+weight_optimisation:
+    value: class_aware_v4_v5_v6_mit_b4_with_fine_0.05_pairwise_refinement_plus_expanded_colab_v7_beta_gate_and_local_logit_fusion

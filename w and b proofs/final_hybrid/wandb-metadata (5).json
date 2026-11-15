@@ -1,0 +1,45 @@
+{
+  "os":  "Linux-6.18.55+-x86_64-with-glibc2.39",
+  "python":  "CPython 3.13.15",
+  "startedAt":  "2026-11-14T23:08:19.047862Z",
+  "args":  [
+    "-f",
+    "/tmp/tmpwy_aecem.json",
+    "--HistoryManager.hist_file=:memory:"
+  ],
+  "program":  "<python with no main file>",
+  "root":  "/kaggle/working",
+  "host":  "42807b95f4c6",
+  "executable":  "/usr/bin/python3",
+  "cpu_count":  2,
+  "cpu_count_logical":  4,
+  "gpu":  "Tesla T4",
+  "gpu_count":  2,
+  "disk":  {
+    "/":  {
+      "total":  "8758385086464",
+      "used":  "7730485633024"
+    }
+  },
+  "memory":  {
+    "total":  "33658159104"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing",
+      "uuid":  "GPU-18990b1e-8d7e-21a3-8a8a-d7b45a59c4b3"
+    },
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing",
+      "uuid":  "GPU-9a8c77e9-5a2a-1e00-a522-3bb7bbcb6c38"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "j58on5c44dhaefht9s98kod53yrweory"
+}
